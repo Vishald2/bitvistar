@@ -1,5 +1,6 @@
 import Container from "@/components/ui/Container";
 import ServiceImageCard from "@/components/ui/ServiceImageCard";
+import Marquee from "react-fast-marquee";
 
 const services = [
     {
@@ -30,17 +31,20 @@ const services = [
                         Services We Provide
                     </h2>
                 </div>
-                <div className="overflow-hidden">
-                    <div className="animate-scroll flex gap-8">
-                        {[...services, ...services].map((service, index) => (
+                <Marquee
+                    speed={40}
+                    gradient={false}
+                    pauseOnHover={true}
+                >
+                    {services.map((service) => (
+                        <div key={service.title} className="mx-4">
                             <ServiceImageCard
-                                key={index}
                                 image={service.image}
                                 title={service.title}
                             />
-                        ))}
-                    </div>
-                </div>
+                        </div>
+                    ))}
+                </Marquee>
             </Container>
         </section>
     );

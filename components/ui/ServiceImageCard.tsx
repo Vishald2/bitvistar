@@ -10,7 +10,7 @@ export default function ServiceImageCard({
     title,
 }: ServiceImageCardProps) {
     return (
-        <div className="overflow-hidden rounded-xl shadow-md">
+        <div className="overflow-hidden shadow-md">
             <Image
                 src={image}
                 alt={title}
