@@ -39,7 +39,7 @@ const technologies = [
 
 export default function Technologies() {
     return (
-        <section className="bg-gray-50 py-20">
+        <section className="bg-gray-50 py-10">
             <Container>
 
                 <div className="mx-auto mb-16 max-w-3xl text-center">
@@ -48,7 +48,7 @@ export default function Technologies() {
                     </h2>
                     <p className="mt-4 text-lg text-gray-600">
                         We use modern technologies to build secure,
-                        scalable and future-ready software.
+                        scalable and future-ready software
                     </p>
                 </div>
 

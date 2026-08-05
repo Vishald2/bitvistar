@@ -21,7 +21,7 @@ const services = [
 
 export default function Services() {
     return (
-        <section className="py-16">
+        <section className="py-15">
             <Container>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {services.map((service) => (

@@ -4,14 +4,14 @@ import Link from "next/link";
 
 export default function Hero() {
     return (
-        <section className="py-8 px-15">
+        <section className="py-4 px-7">
             <Container>
                 <div className="max-w-3xl">
                     <h1 className="text-1xl md:text-2xl lg:text-3xl font-bold leading-tight">
                        Build • Automate • Grow
                     </h1>
 
-                    <p className="mt-6 text-lg text-gray-600">
+                    <p className="mt-3 text-lg text-gray-600">
                         We help small and mid-sized businesses build secure, scalable IT systems.
                     </p>
                 </div>

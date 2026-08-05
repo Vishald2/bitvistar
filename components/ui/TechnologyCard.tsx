@@ -8,14 +8,14 @@ export default function TechnologyCard({
     title,
 }: TechnologyCardProps) {
     return (
-        <div className="rounded-2xl bg-white p-8 text-center shadow-md transition-shadow hover:shadow-lg">
-            <div className="flex justify-center text-blue-600">
-                {icon}
-            </div>
+<div className="rounded-2xl bg-white px-6 py-5 text-center shadow-md transition-shadow hover:shadow-lg">
+    <div className="flex justify-center text-blue-600">
+        {icon}
+    </div>
 
-            <h3 className="mt-6 text-2xl font-semibold">
-                {title}
-            </h3>
-        </div>
+    <h3 className="mt-4 text-xl font-semibold">
+        {title}
+    </h3>
+</div>
     );
 }

@@ -23,7 +23,7 @@ const services = [
 
             export default function ServicesCarousel() {
                     return (
-                        <section className="py-20">
+                        <section className="py-15">
             <Container>
 
                 <div className="mb-12 text-center">

@@ -21,7 +21,7 @@ export default function ServiceCard({
                 className="w-full"
             />
 
-            <div className="p-6 text-center">
+            <div className="p-4 text-center">
                 <h3 className="text-2xl font-semibold">
                     {title}
                 </h3>

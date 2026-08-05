@@ -5,7 +5,6 @@ const navItems = [
     { href: "/", label: "Home" },
     { href: "/about", label: "About" },
     { href: "/services", label: "Services" },
-    { href: "/portfolio", label: "Portfolio" },
     { href: "/contact", label: "Contact" },
 ];
 
@@ -13,8 +12,7 @@ export default function Navbar() {
     return (
         <header className="border-b border-gray-200 bg-white">
             <Container>
-                <nav className="flex h-16 items-center justify-between">
-
+                <nav className="relative flex items-center justify-between py-3">
                     <Link
                         href="/"
                         className="text-2xl font-bold text-blue-600"
@@ -22,7 +20,7 @@ export default function Navbar() {
                         BitVistar
                     </Link>
 
-                    <ul className="flex items-center gap-8">
+                    <ul className="flex justify-center gap-10">
 
                         {navItems.map((item) => (
                             <li key={item.href}>
@@ -38,6 +36,9 @@ export default function Navbar() {
                     </ul>
 
                 </nav>
+    <div>
+
+    </div>
             </Container>
         </header>
     );
