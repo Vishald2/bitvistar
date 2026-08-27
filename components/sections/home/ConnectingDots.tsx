@@ -3,7 +3,7 @@ import Container from "@/components/ui/Container";
 
 export default function ConnectingDots() {
     return (
-        <section name="abc" className="py-10">
+        <section className="py-10">
             <Container>
 <div className="flex flex-col items-center gap-12 lg:flex-row">
 <div className="flex-1 text-center">
