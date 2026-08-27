@@ -8,7 +8,7 @@ export default function ConnectingDots() {
 <div className="flex flex-col items-center gap-12 lg:flex-row">
 <div className="flex-1 text-center">
     <Image
-        src="/images/ItSystems4.webp"
+        src="/images/itsystems4.webp"
         alt="Connecting the Dots"
         width={400}
         height={400}
